@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T15:36:08.451Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="wuCDb3cYWFJh7Dr0K0ZE" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T16:13:44.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="gD8kcVOUHPbs8eGWQ9hD" version="24.0.7" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
     <mxGraphModel dx="2074" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -27,6 +27,14 @@
         <mxCell id="mh3bhrRl3af4ebjUZuJ7-9" value="&lt;div&gt;29 Subnet&lt;/div&gt;&lt;div&gt;Port 8&lt;/div&gt;&lt;div&gt;00:09:0f:09:00:09&lt;/div&gt;" style="shape=mxgraph.cisco.routers.atm_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1700" y="370" width="78" height="53" as="geometry" />
         </mxCell>
+        <mxCell id="mh3bhrRl3af4ebjUZuJ7-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mh3bhrRl3af4ebjUZuJ7-10" target="mh3bhrRl3af4ebjUZuJ7-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mh3bhrRl3af4ebjUZuJ7-49" value="1/g/17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mh3bhrRl3af4ebjUZuJ7-45">
+          <mxGeometry x="0.7081" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mh3bhrRl3af4ebjUZuJ7-10" value="&lt;div&gt;SAN Subnet&lt;/div&gt;&lt;div&gt;Port 1&lt;/div&gt;&lt;div&gt;00:09:0f:09:00:02&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.routers.atm_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="372" width="78" height="53" as="geometry" />
         </mxCell>
@@ -53,7 +61,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mh3bhrRl3af4ebjUZuJ7-23" value="&lt;div&gt;&lt;b&gt;kp-dcsw-v125&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;00:22:0C:A6:42:9B&lt;/b&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="967" y="580" width="64" height="64" as="geometry" />
+          <mxGeometry x="967" y="610" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="mh3bhrRl3af4ebjUZuJ7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mh3bhrRl3af4ebjUZuJ7-26" target="mh3bhrRl3af4ebjUZuJ7-14">
           <mxGeometry relative="1" as="geometry">
@@ -97,6 +105,25 @@
         </mxCell>
         <mxCell id="mh3bhrRl3af4ebjUZuJ7-37" value="&lt;div&gt;&lt;b&gt;DC1-HSW-001&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;bcd7.a51a.1482&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="967" y="800" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mh3bhrRl3af4ebjUZuJ7-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mh3bhrRl3af4ebjUZuJ7-43" target="mh3bhrRl3af4ebjUZuJ7-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mh3bhrRl3af4ebjUZuJ7-53" value="Te1/0/24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mh3bhrRl3af4ebjUZuJ7-48">
+          <mxGeometry x="0.5714" y="-1" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mh3bhrRl3af4ebjUZuJ7-54" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mh3bhrRl3af4ebjUZuJ7-48">
+          <mxGeometry x="-0.254" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mh3bhrRl3af4ebjUZuJ7-43" value="&lt;div&gt;&lt;b&gt;Dell 1G Switch HA1&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;5c:26:0a:f4:f3:cd&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="337" y="610" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mh3bhrRl3af4ebjUZuJ7-46" value="&lt;div&gt;&lt;b&gt;Dell 10G Switch&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;f8:b1:56:74:f6:6b&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="337" y="800" width="64" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
