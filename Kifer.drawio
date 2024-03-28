@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T15:38:16.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="0dKxqxTYa45bKejBSEwN" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T19:17:49.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="eumJqMAdbIHUWVXJQoWo" version="24.0.7" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
     <mxGraphModel dx="2074" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -339,6 +339,21 @@
             <mxPoint x="3" y="-324" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mTb9XkQDVOmjowsp1IoM-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mh3bhrRl3af4ebjUZuJ7-141" target="mTb9XkQDVOmjowsp1IoM-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTb9XkQDVOmjowsp1IoM-47" value="&lt;div&gt;Port 1&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTb9XkQDVOmjowsp1IoM-43">
+          <mxGeometry x="0.7419" relative="1" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTb9XkQDVOmjowsp1IoM-48" value="&lt;div&gt;Gi2/0/29&lt;/div&gt;&lt;div&gt;VLAN1&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTb9XkQDVOmjowsp1IoM-43">
+          <mxGeometry x="-0.871" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mh3bhrRl3af4ebjUZuJ7-141" value="&lt;div&gt;&lt;b&gt;Cisco WS-X2948G-GE-TX&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;JAE102341Z5&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1447" y="390" width="64" height="64" as="geometry" />
         </mxCell>
@@ -382,6 +397,9 @@
         </mxCell>
         <mxCell id="mTb9XkQDVOmjowsp1IoM-17" value="&lt;div&gt;&lt;b&gt;DC1-CSW-010&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;WS-C2948G-GE-TX&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;JAE103181PD&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1207" y="440" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mTb9XkQDVOmjowsp1IoM-44" value="&lt;div&gt;&lt;b&gt;DC1-WLC-001&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;84:80:2d:f8:68:80&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="630" width="64" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
